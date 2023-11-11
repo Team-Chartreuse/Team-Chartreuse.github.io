@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Team Chartreuse | Home</title>
+
+    <link rel="stylesheet" href="public/style/global.css">
+    <link rel="stylesheet" href="public/style/home.css">
+</head>
+<body>
+
+<div class="scrollDist"></div>
+<div class="parallax">
+    <div class="text">
+        <h1>La vie en chartreuse</h1>
+        <svg viewBox="0 0 54 103" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M27 3V100M27 100L3 75.75M27 100L51 75.75" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+    <div id="parallax">
+        <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+            <mask id="m">
+                <g class="cloud1">
+                    <rect fill="#fff" width="100%" height="801" y="799" />
+                    <image xlink:href="public/images/home/cloud.png" width="1200" height="800"/>
+                </g>
+            </mask>
+
+            <image class="sky" xlink:href="https://assets.codepen.io/721952/sky.jpg"  width="1200" height="590" />-->
+            <image class="mountBg" xlink:href="https://assets.codepen.io/721952/mountBg.png" width="1200" height="800"/>
+            <image class="mountMg" xlink:href="https://assets.codepen.io/721952/mountMg.png" width="1200" height="800"/>
+            <image class="cloud2" xlink:href="https://assets.codepen.io/721952/cloud2.png" width="1200" height="800"/>
+            <image class="mountFg" xlink:href="https://assets.codepen.io/721952/mountFg.png" width="1200" height="800"/>
+            <image class="cloud1" xlink:href="https://assets.codepen.io/721952/cloud1.png" width="1200" height="800"/>
+            <image class="cloud3" xlink:href="https://assets.codepen.io/721952/cloud3.png" width="1200" height="800"/>
+
+            <g mask="url(#m)">
+                <rect fill="#fdfdfd" width="100%" height="100%"/>
+            </g>
+
+        </svg>
+    </div>
+</div>
+<main>
+    <img id="cloud1" src="public/images/home/cloud.png" alt="">
+    <div id="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</main>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+<script src="public/scripts/home.js" type="module"></script>
+</html>
